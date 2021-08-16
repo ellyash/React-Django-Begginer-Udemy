@@ -1,0 +1,103 @@
+.App {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+.App-header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+}
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.gold {
+  color: rgb(228, 188, 11);
+}
+.orange {
+  color: orange;
+}
+.rate-container .fa-star {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.avg-rating {
+  font-size: 1.5rem;
+}
+.no-of-ratings {
+  font-size: 1.2rem;
+  color: gray;
+}
+.movie-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+.movie-item svg {
+  font-size: 1.2rem;
+  margin: 16px 5px;
+}
+.reg-redirect {
+  color: rgb(102, 142, 216);
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+.login-container {
+  width: 50%;
+  margin: 0 25%;
+}
+.login-container p {
+  margin: 0 32%;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0;
+  font-size: 0.8rem;
+  resize: none;
+}
+button {
+  color: rgb(255, 255, 255);
+  background: rgb(102, 142, 216);
+  margin: 0 30%;
+  width: 40%;
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  outline: none;
+}
+button:disabled {
+  color: rgb(255, 255, 255);
+  background: rgb(85, 88, 93);
+  cursor: not-allowed;
+}
+button:hover {
+  cursor: pointer;
+}
+.fa-trash {
+  color: crimson;
+}
+.fa-edit {
+  color: rgb(178, 255, 77);
+}
+h1 {
+  color: orange;
+}
+h1 .fa-film {
+  color: white;
+  transform: rotate(30deg);
+}
+h1 .fa-star {
+  font-size: 2rem;
+  padding-bottom: 3px;
+}
+.fa-sign-out-alt {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
